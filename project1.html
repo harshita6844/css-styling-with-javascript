@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #block{
+        background-color:grey;
+        height:100px;
+        width:100px;
+        transition:2s;
+        border:2px solid black;
+        margin:auto;
+
+    }
+    #input{
+        margin-left: 40%;
+        
+    }
+    body{
+        background: lavenderblush;
+        padding:30px;
+        margin-right:200px;
+        margin-left: 200px;
+    }
+    input:hover{
+        background-color: lightgoldenrodyellow;
+        cursor: pointer;
+    }
+    .outerblock{
+        border:2px solid black;
+    }
+
+</style>
+</head>
+<body><div class="outerblock">
+    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif; text-align:center; color:rgb(3, 89, 95)">Input the specifications.</h1>
+    <div id="block">
+
+    </div>
+    <br><br><div id="input" >
+    Height:<input type="text" id="t1"><br><br>
+    Width: <input type="text" id="t2"><br><br>
+    Color: <input type="text" id="t3"><br><br>
+    <input type="button" value="Set value" onclick="change()"><br><br></div></div>
+</body>
+<script src="project2.js"></script>
+</html>
